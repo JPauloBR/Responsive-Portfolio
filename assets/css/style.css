@@ -1,0 +1,546 @@
+* {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+p {
+	color: #777777;
+	font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 2;
+	margin-left: 20px;
+}
+
+body {
+	background-image: url("../images/halftone.png");
+
+}
+
+h1 {
+	color: #4aaaa5;
+	font-size: 200%;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-color: #cccccc;
+	line-height: 2;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-size: 150%;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-color: #cccccc;
+	line-height: 2.5;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+aside {
+	float: right;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-color: #cccccc;
+	border-style: solid;
+	border-right-width: 1px;
+	text-align: center;
+/*	background-color: yellow;
+*/	width: 80px;
+}
+
+nav {
+	float: right;
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+form {
+	margin-top: 40px;
+	margin-left: 20px;
+	color: #777777;
+	line-height: 1.5;
+	font-size: 1.25em;
+}
+
+input {
+	width: 95%;
+	color: #777777;
+	padding 12px 20px;
+	margin 8px 0;
+	box-sizing: border-box;
+	border 2px #cccccc;
+	border-radius: 4px;
+}
+
+textarea {
+	width: 95%;
+	height: 300px;
+	resize: none;
+	color: #777777;
+	padding 12px 20px;
+	margin 8px 0;
+	box-sizing: border-box;
+	border 2px #cccccc;
+	border-radius: 4px;
+}
+
+.entireContent {
+/*	width: 960px;
+*/}
+
+.headers {
+	width: 930px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-color: #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	height: 80px;
+	position: relative;
+}
+
+.middleContent {
+	width: 930px;
+}
+
+.logos {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 160px;
+	text-align: center;
+	height: 100%;
+	font-size: 150%;
+	line-height: 3.5;
+/*	position: absolute;
+	left: 130px;*/
+	float: left;
+	margin-left: 20px;
+}
+
+.headerRightBar {
+	float: right;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+
+.mainContent, .mainContentPort {
+	background-color: #ffffff;
+	
+/*	background-color: yellow;
+*/	border-color: #dddddd;
+	width: 600px;
+	margin-left: 20px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.sideBar, .sideBarPort {
+	margin-top: 40px;
+	width: 270px;
+	color: #4aaaa5;
+/*	
+	right: 160px;*/
+/*	background-color: blue;*/
+	float: right;
+	background-color: #ffffff;
+	position: relative;
+}
+
+.sideBarLogos, .sideBarLogosPort {
+	width: 50px;
+	height: 50px;
+}
+
+.navWrapper, .navWrapperPort {
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: 50px;
+	margin-bottom: 40px;
+
+}
+
+.portlogos {
+	background: #4aaaa5;
+	color: #ffffff;
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	line-height: 2;
+	font-size: 1.2em;
+	position: absolute;
+	bottom: 10px;
+}
+
+.imagesWrapper {
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	margin-right: 40px;
+	float: left;
+	position: relative;
+}
+
+.imagesPortfolio {
+	width: 200px;
+	height: 150px;
+}
+
+.footnote {
+	color: #ffffff;
+	background-color: #666666;
+	width: 100%;
+	margin-right: -1px;
+	height: 75px; 
+	line-height: 6;
+	font-size: 0.75em;
+	border-style: solid;
+	border-top-width: 4px;
+	border-color: #4aaaa5;
+	text-align: center;
+	padding-right: 0;
+
+}
+
+
+.mainDiv {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	position: relative;
+
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+#lastRightSideButton {
+	border-style: none;
+}
+
+#myPic {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+
+}
+
+#submitButton {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	width: 100px;
+	height: 45px;
+	margin-bottom: 40px;
+	border: none;
+	cursor: pointer;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img.imagesPortfolio:hover {
+	outline: 5px solid gray;
+	outline-offset: 10px;
+}
+
+@media only screen and (max-width: 980px) {
+	h2 {
+		text-align: center;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	nav {
+		margin-left: 10%;
+		margin-right: auto;
+		float: none;
+	}
+	.logos {
+		width: 20%;
+	}
+
+	.headers {
+		width: 100%;
+	}
+
+	.headerRightBar {
+		margin-right: 1%;
+		margin-top: 4%;
+	}
+
+	.middleContent {
+		width: 100%;
+	}
+
+	.sideBar {
+		margin-right: 3%;
+		width: 33%;
+	}
+
+	.sideBarPort {
+		margin-right: 2%;
+		margin-left: 3%;
+		margin-top: auto;
+		width: 95%;
+		float: none;
+	}
+
+	.mainContent {
+		width: 60%;
+	}
+
+	.mainContentPort {
+		width: 95%;
+		float:none;
+	}
+
+	.navWrapper {
+		margin-top: 10%;
+		margin-right: 15%;
+		margin-bottom: 15%
+	}
+
+	.navWrapperPort {
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	.sideBarLogos {
+		width: 30%;
+		height: 30%;
+		float: right;
+		margin-left: 3%;
+	}
+
+	.sideBarLogosPort {
+		float: left;
+		width: 9%;
+		height: 9%;
+		margin-right: 2%;
+		margin-bottom: 2%;
+	}
+
+	.imagesWrapper {
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-bottom: 1%;
+		margin-right: 2%;
+		width: 44%;
+	}
+
+	.imagesPortfolio {
+		width: 100%;
+		height: 100%;
+	}
+
+	.navPort {
+		margin-left: 5%;
+	}
+
+	#myPic {
+		float:none;
+		width: 93%;
+	}
+
+	#h2Port {
+		text-align: left;
+	}
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+	h2 {
+		text-align: left;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	nav {
+		margin-left: 3%;
+	}
+	.mainContent {
+		width: 95%;
+	}
+
+	.mainContentPort {
+		width: 60%;
+		float: left;
+	}
+
+	.sideBar {
+		width: 95%;
+		margin-top: auto;
+		margin-bottom: 2%;
+	}
+
+	.sideBarLogosPort {
+		float: left;
+		width: 30%;
+		height: 9%;
+		margin-right: 3%;
+		margin-bottom: 10%;
+		margin-top: 5%;
+	}
+
+	.navWrapper {
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	.navWrapperPort {
+		width: 100%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+
+	.navPort {
+		margin-left: 5%;
+	}
+
+	.sideBarLogos {
+		width: 10%;
+		float: left;
+	}
+
+	.sideBarPort {
+		margin-right: 3%;
+		margin-left: 3%;
+		margin-top: 5%;
+		width: 30%;
+		float: right;
+	}
+
+	.imagesWrapper {
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-bottom: 1%;
+		margin-right: 2%;
+		width: 92%;
+	}
+
+	#myPic {
+		float: left;
+		width: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+	aside {
+		width: 15%;
+		margin-left: auto;
+		margin-right: 5%;
+		margin-top: 7%;
+		text-align: center;
+		padding-right: 10%;
+
+	}
+
+	nav {
+		width: 250%;
+		margin-top: 5%;
+	}
+	.headers {
+		position: static;
+	}
+
+	.logos {
+		width: 100%;
+		margin-left: auto;
+		margin-top: -4%;
+		float: none;
+		padding-bottom: 5%;
+		line-height: 5.5;
+	}
+
+	.headerRightBar {
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: auto;
+		height: 100%;
+		background-color: #ffffff;
+		border-style: solid;
+		border-bottom-width: 2px;
+		border-color: #cccccc;
+	}
+
+	.middleContent {
+		margin-top: 20%;
+		width: 95%;
+	}
+
+	.mainContent {
+		width: 93%;
+	}
+
+	.mainContentPort {
+		width: 95%;
+	}
+
+	.sideBarPort {
+		float:left;
+		width: 95%;
+		margin-top: auto;
+		margin-left: 5%;
+	}
+
+	.navWrapperPort {
+		width: 100%;
+		float: left;
+		margin-left: 3%;
+		margin-right: auto;
+	}
+
+	.sideBar {
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-bottom: auto;
+	}
+
+	.navWrapper {
+		padding-bottom: 15%;
+	}
+	
+	.navPort {
+		width: 80%;
+	}
+
+	#lastRightSideButton {
+		width: 15%;
+		margin-left: auto;
+		margin-right: 5%;
+		margin-top: 7%;
+		text-align: center;
+		padding-right: 10%;
+		border-style: none;
+	}
+
+	#myPic {
+		float:none;
+		width: 85%;
+	}
+
+
+}
+
+/*@media only screen and (orientation: landscape) {
+	.logos {
+		background-color: pink;
+	}
+	
+}
+*/
